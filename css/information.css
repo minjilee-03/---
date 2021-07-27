@@ -1,0 +1,48 @@
+.information .perfect .history {
+    margin-top: 20px;
+}
+
+.information .perfect .history .num {
+    float: left;
+    width: 100%;
+}
+
+.information .perfect .history .num .num-dl {
+    width: 100%;
+}
+
+.information .perfect .history .num .num-dl .counter {
+    float: left;
+    width: 40%;
+    font-size: 27px;
+    font-weight: 900;
+    color: #2331d2;
+    text-align: right;
+}
+
+.information .perfect .history .num .num-dl .num-dd {
+    float: right;
+    width: 55%;
+    padding: 0px 2px;
+    margin: 0;
+}
+
+.information .perfect .history .num .num-dl 
+.num-dd .history-txt1 {
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.information .perfect .history .num .num-dl 
+.num-dd .history-txt2 {
+    color: white;
+    font-size: 20px;
+}
+
+.information .perfect .history .num .num-dl 
+.num-dd .history-txt3 {
+    color: #99ccff;
+    font-size: 0.889rem;
+}
