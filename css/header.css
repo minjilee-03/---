@@ -1,20 +1,62 @@
-.wrap .header{
-    position: fixed;
+.history {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
-.wrap .header .logo-wrap{
-    width: 150px;
-}
-.wrap .header .logo-wrap img{
+
+.history .num {
+    float: left;
     width: 100%;
     height: auto;
+    padding: 20px 0px 20px 0px;
 }
-.wrap .header .header-wrap{
-    padding-top: 15px;
+
+.history .num::after {
+    clear: both;
 }
-.down {
-    background-color: rgba(0, 0, 0, 0.226);
-    -webkit-transition-duration: 0.2s;
-    -webkit-transition-timing-function: ease;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+
+.history .num .num-dl {
+    width: 100%;
+}
+
+.history .num .num-dl .counter {
+    float: left;
+    padding-top: 5px;
+    width: 40%;
+    font-size: 37px;
+    font-weight: 900;
+    color: #2331d2;
+    text-align: right;
+}
+
+.history .num .num-dl .counter::after {
+    clear: both;
+}
+
+
+.history .num .num-dl .num-dd {
+    float: right;
+    width: 55%;
+    padding: 0px 2px;
+    margin: 0;
+}
+
+.history .num .num-dl .num-dd .history-txt1 {
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.history .num .num-dl .num-dd .history-txt2 {
+    color: white;
+    font-size: 20px;
+}
+
+.history .num .num-dl .num-dd .history-txt3 {
+    color: #99ccff;
+    font-size: 0.889rem;
 }
