@@ -1,0 +1,51 @@
+.portfolio .container .portfolio-container .title::after {
+    top: 1935px;
+    left: 33px;
+}
+.portfolio .container .portfolio-container .portfolio-img-box {
+    width: 100%;
+    position: relative;
+}
+.portfolio .container .portfolio-container .portfolio-img-box
+.portfolio-menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px 0px 0;
+}
+.portfolio .container .portfolio-container .portfolio-img-box 
+.portfolio-menu .portfolio-item{
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.portfolio .container .portfolio-container .portfolio-img-box 
+.portfolio-menu .portfolio-item .protfolio-img-wrap{
+    width: 100%;
+    height: 500px;
+}
+.portfolio .container .portfolio-container .portfolio-img-box 
+.portfolio-menu .portfolio-item .protfolio-img-wrap{
+    background: url(http://pointweb.co.kr/_public/uploadFiles/board_data/portfolio/l/NE1E21795ZPQ7NSECC2E.jpg) center no-repeat;
+    background-size: cover;
+}
+.portfolio .container .portfolio-container 
+ .more-box a{
+    width: auto;
+}
+.portfolio .container .portfolio-container 
+ .more-box a::after {
+    width: 230px;
+    height: 20px;
+    top: 3108px;
+    left: 120px;
+}
+.portfolio .container .portfolio-container 
+.more-box-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
