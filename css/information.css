@@ -20,7 +20,7 @@
 }
 
 .perfect .information-txt-container .title::after {
-    top: 38px;
+    top: 106px;
     left: 5px;
 }
 .information-txt-section .information-txt-container .information-sub-big{
@@ -84,5 +84,53 @@
     .perfect {
         position: relative;
         top: 126px;
+    }
+}
+@media(min-width:992px){
+    .title::after {
+        content: "";
+        display: inline-block;
+        width: 108px;
+        height: 5px;
+        background: #fff;
+        position: absolute;
+    }
+    .information-txt-section .information-img-box .blue-background-image {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }   
+    .perfect .information-txt-container .title {
+        font-weight: 800;
+        color: #ecefc5;
+        line-height: 35px;
+        margin-bottom: 55px;
+    }
+    .professional .information-txt-container .title {
+        font-weight: 800;
+        color: #ecefc5;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+    .professional .information-txt-container .title::after {
+        top: 454px;
+        left: 53px;
+    }
+    .information-txt-section .information-txt-container .information-sub-big {
+        font-weight: 600;
+        font-size: 30px;
+        color: #fff;
+        letter-spacing: 1.5px;
+        margin-bottom: 0;
+    }
+    .information {
+        height: 1570px;
+        padding-top: 350px;
+    }
+    .information-txt-section .more-box a::after {
+        width: 128px;
+        height: 20px;
+        top: 770px;
+        left: 92px;
     }
 }
