@@ -1,0 +1,20 @@
+.wrap .header{
+    position: fixed;
+}
+.wrap .header .logo-wrap{
+    width: 150px;
+}
+.wrap .header .logo-wrap img{
+    width: 100%;
+    height: auto;
+}
+.wrap .header .header-wrap{
+    padding-top: 15px;
+}
+.down {
+    background-color: rgba(0, 0, 0, 0.226);
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
