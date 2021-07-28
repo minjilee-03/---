@@ -1,0 +1,35 @@
+.footer{
+    height: 600px;
+}
+.footer .container .phone-wrap .phone .phone-img-box {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 50px;
+}
+.footer .container .phone-wrap .phone .phone-img-box .rope-icon{
+    width: 19px;
+    height: 200px;
+}
+.footer .container .phone-wrap .phone .phone-img-box .phone-icon{
+    width: 50px;
+    height: auto;
+}
+.footer .container .phone-wrap .phone .phone-number-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.footer .container .phone-wrap .footer-group{
+    width: 100%;
+    position: relative;
+}
+
