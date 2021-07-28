@@ -1,0 +1,64 @@
+.portfolio .container .portfolio-container .portfolio-img-box {
+    width: 100%;
+    position: relative;
+}
+
+.portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px 0px 0;
+}
+
+.portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu .portfolio-item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu .portfolio-item .portfolio-img-wrap {
+    width: 100%;
+    height: 250px;
+}
+
+.portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu .portfolio-item .portfolio-img-wrap {
+    background: url(http://pointweb.co.kr/_public/uploadFiles/board_data/portfolio/l/NE1E21795ZPQ7NSECC2E.jpg) center no-repeat;
+    background-size: auto 100%;
+}
+
+.portfolio .container .portfolio-container .more-box a {
+    width: auto;
+}
+
+.portfolio .container .portfolio-container .more-box a::after {
+    width: 230px;
+    height: 20px;
+    right: -47px;
+}
+
+.portfolio .container .portfolio-container .more-box-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu {
+        padding: 80px 0px 0px 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu .portfolio-item {
+        width: 33%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .portfolio .container .portfolio-container .portfolio-img-box .portfolio-menu .portfolio-item .portfolio-img-wrap {
+        background: url(http://pointweb.co.kr/_public/uploadFiles/board_data/portfolio/l/NE1E21795ZPQ7NSECC2E.jpg) center no-repeat;
+        background-size: 100% 100%;
+    }
+}

@@ -48,12 +48,17 @@ b {
     font-weight: 800;
     color: #fff;
     font-size: 28px;
+    position: relative;
 }
 .title::after {
     content: "";
     display: inline-block;
     width: 28px;
     height: 5px;
+    top: auto;
+    left: 0;
+    right: auto;
+    bottom: -7px;
     background: #fff;
     position: absolute;
 }
@@ -64,6 +69,7 @@ b {
     display: flex;
     width: 200px;
     align-items: center;
+    position: relative;
     justify-content: center;
     border: 1px solid white;
 }
@@ -75,6 +81,10 @@ b {
     display: inline-block;
     position: absolute;
     opacity: 0.5;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: -7px;
     background-color: #d442ca;
 }
 .more-box-wrap{
