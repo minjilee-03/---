@@ -25,7 +25,9 @@ b {
     font-weight: normal;
     color: black;
     text-decoration-line: none;
+    -ms-overflow-style:none;
 }
+.wrap::-webkit-scrollbar { display:none; }
 
 .clearfix::after {
     display: block;
