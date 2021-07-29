@@ -45,6 +45,13 @@ b {
 .pc-br{
     display: none;
 }
+.header .header-wrap .pc-nav-wrap{
+    display: none;
+}
+.header .header-wrap .pc-phon-num-wrap{
+    display: none;
+    padding-right: 30px;
+}
 
 .title{
     font-weight: 800;
