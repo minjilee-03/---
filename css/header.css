@@ -1,5 +1,6 @@
 .wrap .header{
     position: fixed;
+    height: 100px;
     z-index: 999;
 }
 .wrap .header .logo-wrap{
@@ -36,7 +37,7 @@
         top: auto;
         left: auto;
         right: auto;
-        bottom: 75px;
+        bottom: 53px;
         text-align: center;
     }
     .header .header-wrap .pc-nav-wrap .pc-nav{
@@ -59,7 +60,7 @@
         top: auto;
         left: auto;
         right: 150px;
-        bottom: 110px;
+        bottom: 90px;
         margin-right: 130px;
         text-align: right;
     }
