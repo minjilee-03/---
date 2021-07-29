@@ -1,5 +1,6 @@
 .wrap .header{
     position: fixed;
+    z-index: 999;
 }
 .wrap .header .logo-wrap{
     width: 150px;
@@ -12,7 +13,7 @@
     padding-top: 20px;
 }
 .down {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.329);
     -webkit-transition-duration: 0.2s;
     -webkit-transition-timing-function: ease;
     transition-duration: 0.2s;
